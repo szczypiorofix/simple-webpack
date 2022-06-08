@@ -1,7 +1,7 @@
 /** Loading custom font from file from assets */
 @font-face {
   font-family: "MyFont";
-  src: url("../asset/FSEX300.woff") format("woff");
+  src: url("../assets/fonts/FSEX300.woff") format("woff");
   font-weight: 600;
   font-style: normal;
 }
@@ -10,7 +10,7 @@
   color: red;
   font-family: "MyFont";
   /** Load image from assets */
-  background: url("../asset/icon.png");
+  background: url("../assets/images/icon.png");
 }
 
 $bgColor: #444444;
