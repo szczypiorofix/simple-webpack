@@ -1,0 +1,58 @@
+/** Loading custom font from file from assets */
+@font-face {
+  font-family: "MyFont";
+  src: url("../asset/FSEX300.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+.hello {
+  color: red;
+  font-family: "MyFont";
+  /** Load image from assets */
+  background: url("../asset/icon.png");
+}
+
+$bgColor: #444444;
+$fgColor: #fafafa;
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  background-color: $fgColor;
+  color: $bgColor;
+  /** Use custom font */
+  font-family: "MyFont", sans-serif;
+}
+
+.main-container {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  .content {
+    max-width: 400px;
+
+    h1 {
+      text-align: center;
+    }
+
+    div {
+      margin: 14px 0;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .footer {
+      text-align: center;
+    }
+  }
+}
