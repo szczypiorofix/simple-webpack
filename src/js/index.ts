@@ -9,5 +9,5 @@ import maunFunction from "./app";
 
 
 
-
+// Main function of the application
 maunFunction();

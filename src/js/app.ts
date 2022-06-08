@@ -10,9 +10,14 @@ import xmlData from "../asset/data.xml";
 // // CSV file
 import csvData from "../asset/data.csv";
 
+
+
 function ResizeWindow() {
     console.log("Resize: " + window.innerWidth + ":" + window.innerHeight);
 }
+
+
+
 
 export default function mainAppFunction(): void {
     console.log("App bundle initialized");
