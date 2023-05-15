@@ -21,25 +21,41 @@ function ResizeWindow() {
 
 export default function mainAppFunction(): void {
     
-    console.log("App bundle initialized");
+    console.log( 'App bundle initialized' );
 
     // Testing lodash
-    console.log("Lodash test: ", split("a-b-c", "-", 2));
-
-    const d: number = 1;
-
-    console.log( typeof d );
+    console.log( 'Lodash test: ', split( 'a-b-c', '-', 2) );
 
     // Test JSON data from file
-    console.log("Data from JSON: ", jsonData );
+    console.log( 'Data from JSON: ', jsonData );
 
     // // Test XML data from file
-    console.log("XML Data: ", xmlData);
+    console.log( 'XML Data: ', xmlData );
 
     // // Test CSV data from file
-    console.log("CSV Data: ", csvData);
+    console.log( 'CSV Data: ', csvData );
 
     // Adding custom JS function, e.g. window resize event listener
-    window.addEventListener("resize", ResizeWindow);
+    window.addEventListener( 'resize', ResizeWindow );
+
+
+    const p = Promise.resolve('hello');
+
+
+    p.then( val => {
+        console.log(val);
+        return `${val} world`;
+    })
+    .then( newVal => {
+        console.log(newVal);
+    });
+
+
+
+    setTimeout( () => {
+        console.log('second');
+    }, 0);
+    console.log('first');
+
 
 }

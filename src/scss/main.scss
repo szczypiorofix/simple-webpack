@@ -8,7 +8,7 @@
 
 .hello {
   color: red;
-  font-family: "MyFont";
+  font-family: "MyFont", sans-serif;
   /** Load image from assets */
   background: url("../assets/images/icon.png");
 }

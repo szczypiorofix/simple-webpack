@@ -5,9 +5,8 @@ import "normalize.css";
 import "../scss/main.scss";
 
 // Load from JS file
-import maunFunction from "./app";
-
+import mainAppFunction from "./app";
 
 
 // Main function of the application
-maunFunction();
+mainAppFunction();
