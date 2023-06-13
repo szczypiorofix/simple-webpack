@@ -8,13 +8,13 @@
 
 Simple Webpack configuration for future projects.
 
-## Install, Run, Buid
+## Install, Run, Build
 
 - `npm install` - Install all npm modules and dependencies
 - `npm start` - run webpack server
 - `npm run build` - make production build
 - `npm run build-dev` - make development (with maps) build
-- `npx prettier --write .` - make you code more Prettier
+- `npx prettier --write .` - make you code *Prettier*
 
 ## Author
 
