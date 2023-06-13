@@ -14,7 +14,7 @@ Simple Webpack configuration for future projects.
 - `npm start` - run webpack server
 - `npm run build` - make production build
 - `npm run build-dev` - make development (with maps) build
-- `npx prettier --write .` - make you code *Prettier*
+- `npx prettier --write .` - make you code *Pretty* again!
 
 ## Author
 
