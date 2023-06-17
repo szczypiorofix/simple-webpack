@@ -30,6 +30,7 @@ export default function mainAppFunction(): void {
     // console.log( 'CSV Data: ', csvData );
 
 
+
     const appCore = new AppCore();
     appCore.start("New game");
 
