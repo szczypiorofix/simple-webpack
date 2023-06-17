@@ -19,7 +19,7 @@ class AppCore {
         }
     }
 
-    @debugMethod( "Do you want to run the AppCore?" )
+    @debugMethod( "Do you want to start AppCore?" )
     public start(): void {
         console.log("running AppCore");
     }
