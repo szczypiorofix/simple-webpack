@@ -1,12 +1,13 @@
-// Normalize CSS
-import "normalize.css";
+import AppCore from "./core/AppCore";
 
-// Load SCSS file directly with Webpack
+import "normalize.css";
 import "../scss/main.scss";
 
-// Load from JS file
-import mainAppFunction from "./app";
 
-
-// Main function of the application
-mainAppFunction();
+(async () => {
+    const app: AppCore = new AppCore({
+        debugging: true
+    });
+    await new Promise(resolve => setTimeout(resolve, 1000)); // ask for launching the app after 1 second
+    app.start();
+})();
